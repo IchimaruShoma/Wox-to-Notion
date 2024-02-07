@@ -1,0 +1,12 @@
+{
+  "ID": "E235323109DA11ED9D4B50EBF63F1BF3",
+  "ActionKeyword": "wn",
+  "Name": "Wox_to_Notion",
+  "Description": "Notion DB Add Task.",
+  "Author": "ichimaru",
+  "Version": "0.0.1",
+  "Language": "python",
+  "Website": "https://github.com/IchimaruShoma",
+  "IcoPath": "Images\\icon.png",
+  "ExecuteFileName": "main.py"
+}
