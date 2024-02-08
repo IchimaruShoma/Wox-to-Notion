@@ -1,6 +1,7 @@
 import json
 
-import requests
+import requests as req
+from requests.exceptions import HTTPError
 
 from wox import Wox
 
@@ -41,7 +42,16 @@ class Main(Wox):
             },
         }
 
-        requests.request("POST", url=url, data=json.dumps(body), headers=headers)
+        # req.request("POST", url=url, data=json.dumps(body), headers=headers)
+
+        try:
+            r = req.request("POST", url=url, data=json.dumps(body), headers=headers)
+            # HTTPError occurs if status code is in the 400s or 500s
+            r.raise_for_status()
+            Wox.debug(self, "Posting Success")
+
+        except HTTPError as e:
+            raise Wox.debug(self, " Posting Failure\n" + str(e))
 
 
 if __name__ == "__main__":
