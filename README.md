@@ -2,7 +2,7 @@
 
 Enter notes from Wox to NotionDB  
 ![rapid notion icon](Images/icon.png)  
-![Demo](https://github.com/IchimaruShoma/Wox-to-Notion/assets/55619507/5ea315aa-8ee5-4469-9b67-785d3f2221aa)
+![Demo](https://github.com/IchimaruShoma/Wox-to-Notion/assets/55619507/5ea315aa-8ee5-4469-9b67-785d3f2221aa)  
 
 ---
 
@@ -82,3 +82,5 @@ git clone https://github.com/IchimaruShoma/Wox_to_Notion.git
 ## Bug reports & feature requests
 
 To report an issue, please create a new Issue.
+
+---
