@@ -1,19 +1,20 @@
 # Wox to Notion
 
 Enter notes from Wox to NotionDB
+
 ![rapid notion icon](Images/icon.png)
 
 ---
 
 - [Wox to Notion](#wox-to-notion)
-  - [nInstall](#ninstall)
+  - [Install](#install)
     - [Notion Setting](#notion-setting)
     - [Connections setting](#connections-setting)
     - [Local Setting](#local-setting)
-    - [Usage](#usage)
-    - [Bug reports \& feature requests](#bug-reports--feature-requests)
+  - [Usage](#usage)
+  - [Bug reports \& feature requests](#bug-reports--feature-requests)
 
-## nInstall
+## Install
 
 ### Notion Setting
 
@@ -70,12 +71,16 @@ git clone https://github.com/IchimaruShoma/Wox_to_Notion.git
 
 ---
 
-### Usage
+## Usage
 
 - Launch wox
 - Type `wn [Add your Memo, Task, Diary, etc...]`
 - Enjoy !🎉
 
-### Bug reports & feature requests
+---
+
+## Bug reports & feature requests
 
 To report an issue, please create a new Issue.
+
+---
